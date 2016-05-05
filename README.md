@@ -1,4 +1,8 @@
 # powerline
+## Linux
+```console
+pip install git+git://github.com/powerline/powerline
+```
 ## Ubuntu 16.04
 ```console
 sudo apt install powerline fonts-powerline
