@@ -11,7 +11,11 @@ sudo apt install powerline fonts-powerline
 ## OpenSUSE
 ```console
 zypper in zsh
+cd /tmp
+git clone git://github.com/altercation/solarized.git
+gem install tmuxinator
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cd /tmp
 git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
