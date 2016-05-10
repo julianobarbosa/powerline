@@ -1,12 +1,28 @@
 # powerline
 ## Linux
 ```console
+git clone https://github.com/powerline/fonts.git
 pip install git+git://github.com/powerline/powerline
 ```
 ## Ubuntu 16.04
 ```console
 sudo apt install powerline fonts-powerline
 ```
+## OpenSUSE
+```console
+zypper in zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/powerline/fonts.git
+cd fonts
+./install.sh
+pip install git+git://github.com/powerline/powerline
+pip3 install git+git://github.com/powerline/powerline
+vim ~/.zshrc
+```
+Change plugin value to
+plugins=(colorize common-aliases djagon git github gnu-utils history nmap tmux rsync)
+export EDITOR='vim'
+
 
 ## Fonts
 ```console
