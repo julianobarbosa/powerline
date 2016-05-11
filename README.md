@@ -13,6 +13,15 @@ sudo apt install powerline fonts-powerline
 zypper in zsh
 cd /tmp
 git clone git://github.com/altercation/solarized.git
+cd $HOME
+git clone https://github.com/rupa/z.git .z
+```
+Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
+```console
+. $HOME/.z/z.sh
+```
+
+```console
 gem install tmuxinator
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cd /tmp
