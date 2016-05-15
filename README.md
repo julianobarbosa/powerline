@@ -33,6 +33,9 @@ pip3 install git+git://github.com/powerline/powerline
 vim ~/.zshrc
 ```
 Change plugin value to
+
+
+
 plugins=(colorize common-aliases djagon git github gnu-utils history nmap tmux rsync)
 export EDITOR='vim'
 ZSH_THEME="agnoster"
