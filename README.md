@@ -34,12 +34,13 @@ vim ~/.zshrc
 ```
 Change plugin value to
 
-
+```console
 plugins=(colorize common-aliases djagon git github gnu-utils history nmap tmux rsync)
 
 export EDITOR='vim'
 
 ZSH_THEME="agnoster"
+```
 
 ## Fonts
 ```console
